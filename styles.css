@@ -88,13 +88,15 @@ button {
     overflow: hidden;
     perspective: 1px;
     border: none;
-}
-
-button p {
     font-family: 'Montserrat', sans-serif;
     color: hsl(0, 0%, 100%);
     font-weight: 500;
-    margin: 1em;
+    font-size: 14px;
+    padding: 1em;
+}
+
+button img{
+    margin-right: 1em;
 }
 
 button:active {
