@@ -59,7 +59,13 @@ h1 {
     line-height: 1.5em;
 }
 
-h2 {
+.prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.original-price {
     font-size: 1.9em;
     font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
@@ -68,13 +74,27 @@ h2 {
     align-items: center;
 }
 
-h2 span {
+del {
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
     margin-left: 1.5em;
+}
+
+.sr-only {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    white-space: nowrap;
 }
 
 button {
